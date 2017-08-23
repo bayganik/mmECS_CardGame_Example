@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ItemCollection>
+    <Items>
+      <Item>
+        <Name>Sword</Name>
+        <Damage>50</Damage>
+        <Durability>100</Durability>
+      </Item>
+      <Item>
+        <Name>Axe</Name>
+        <Damage>60</Damage>
+        <Durability>90</Durability>
+      </Item>
+      <Item>
+        <Name>Hammer</Name>
+        <Damage>150</Damage>
+        <Durability>70</Durability>
+      </Item>
+    </Items>
+</ItemCollection>

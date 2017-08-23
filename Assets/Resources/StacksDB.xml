@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StacksItems>
+	<DBRecords>
+		<Stack>
+			<StackID>0</StackID>
+			<Name>CardStack</Name>
+			<FaceUp>0</FaceUp>
+			<Hidden1>0</Hidden1>
+			<Hidden2>0</Hidden2>
+			<Xcorr>-6.1</Xcorr>
+			<Ycorr>0.17</Ycorr>
+			<TotalCards>52</TotalCards>
+			<LastCardFaceUp>0</LastCardFaceUp>
+			<Xoffset>0.35</Xoffset>
+			<Yoffset>0</Yoffset>
+		</Stack>
+    <Stack>
+      <StackID>1</StackID>
+      <Name>CardStack</Name>
+      <FaceUp>0</FaceUp>
+      <Hidden1>0</Hidden1>
+      <Hidden2>0</Hidden2>
+      <Xcorr>-6.1</Xcorr>
+      <Ycorr>0.17</Ycorr>
+      <TotalCards>52</TotalCards>
+      <LastCardFaceUp>0</LastCardFaceUp>
+      <Xoffset>0.35</Xoffset>
+      <Yoffset>0</Yoffset>
+    </Stack>
+    <Stack>
+      <StackID>2</StackID>
+      <Name>CardStack</Name>
+      <FaceUp>0</FaceUp>
+      <Hidden1>0</Hidden1>
+      <Hidden2>0</Hidden2>
+      <Xcorr>-6.1</Xcorr>
+      <Ycorr>0.17</Ycorr>
+      <TotalCards>52</TotalCards>
+      <LastCardFaceUp>0</LastCardFaceUp>
+      <Xoffset>0.35</Xoffset>
+      <Yoffset>0</Yoffset>
+    </Stack>
+	</DBRecords>
+</StacksItems>
