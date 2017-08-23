@@ -1,0 +1,30 @@
+﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+
+public class #SCRIPTNAME# : MonoBehaviour 
+{
+    void OnEnable()
+    {
+        //EventManager.StartListening("Spawn", Handle);
+    }
+    void OnDisable()
+    {
+        //EventManager.StopListening("Spawn", Handle);
+    }
+    void Handle(string value)
+    { 
+          Debug.Log("function was called!");
+          //GameObject go = GameObject.Find(value);		//most systems, pass back name of object
+          //
+          //List<GameObject> goList = ObjectTracker.Find<InputComponent>();
+          //foreach (GameObject mmGO in goList)
+          //{
+          //	//
+          //  	// Get the component so we can have the data we need
+          //  	//
+          //  	InputComponent ocComp = mmGO.GetComponent<InputComponent>();
+          //}
+    }
+
+}

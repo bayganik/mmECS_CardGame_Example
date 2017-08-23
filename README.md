@@ -12,7 +12,7 @@ This example aims to demonstrate :
 
 ## Install for Editor
 To Install download mmECS files to a folder.
-Go to \mmECS_RaceCar_Example\mmGameLib_UnityEditor
+Go to \mmECS_CardGame_Example\mmGameLib_UnityEditor
 there are 2 files
 
 •51-EntityComponent-NewEntityComponent.cs
