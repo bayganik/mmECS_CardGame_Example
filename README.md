@@ -24,6 +24,57 @@ These 2 show up in your editor everytime you want to add a "new" script
 
 Next Restart or Open your Unity project and go to Edit/ProjectSettings/Script Execution Order and Set EntityManager to -200 and Entity to -100.
 
+Now do the following:
+
+Create the usual script folders in Assets folder
+
+	Components
+	
+	Systems
+	
+	Resources
+	
+	Scenes
+	
+	Sprites
+	
+	….
+	
+Drag in mmGameLib folder and add it to Assets
+
+Create a game object – call it GameSystem (this is where everything happens)
+
+	Add following components:
+	
+	Add mmGameLib -> EventManger
+	
+	Add ALL game systems as components.  Each system should implement following:
+	
+    void OnEnable()
+	
+    {
+        EventManager.StartListening("GameEvent", Handle);
+    }
+	
+    void OnDisable()
+    {
+        EventManager.StopListening("GameEvent", Handle);
+    }
+	
+    void Handle(string value)
+    {
+    }
+	
+All other game objects
+
+	Add any number of components that has the following method:
+	
+	private void OnEnable()
+    {
+        ObjectTracker.Register(this.GetType(), this.gameObject);
+    }
+
+	
 ## Sample Screen
 
 ![game image](CardGame.png)
